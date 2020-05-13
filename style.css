@@ -1,7 +1,7 @@
 #img {
-	background: url("tanya-panda.jpg") no-repeat;
+	background: url("https://avatars2.githubusercontent.com/u/65122812") no-repeat;
+	background-size: cover;
 	width: 500px;
 	height: 500px;
 	border-radius: 50%;
 }
-

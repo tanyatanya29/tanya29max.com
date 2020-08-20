@@ -1,0 +1,62 @@
+#background { margin-bottom: -14rem; }
+
+#background-img {
+	height: 16rem;
+	width: 100%;
+	background-image: url('../assets/img/pexels-picjumbocom-461077.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: 0rem -9rem;
+}
+
+#background-mask {
+	height: 16rem;
+	margin-top: -16rem;
+	background: rgba(255, 255, 255, 0.5);
+}
+
+.tn-thumbnail {
+	display: inline-block;
+	max-width: 200px;
+	max-height: 200px;
+	width: auto;
+	height: auto;
+	cursor: pointer;
+}
+
+#change-languages { margin-top: 60px; }
+
+/**************************  different devices **************************/
+@media (min-width: 360px) { #background { margin-bottom: -15rem; } #background-img { background-position: 0rem -4rem; width: 102%} #background-mask { width: 102% }
+	#tn-name { font-size: 2rem; }
+	#tn-addr { font-size: 1rem; }
+}
+@media (min-width: 400px) { #background { margin-bottom: -14rem; }
+	#tn-name { font-size: 2.2rem; }
+	#tn-addr { font-size: 1rem; }
+}
+@media (min-width: 450px) { #background { margin-bottom: -9rem; }}
+@media (min-width: 550px) { #background { margin-bottom: -12rem; }
+	#tn-name { font-size: 2.5rem; }
+	#tn-addr { font-size: 1.5rem; }
+}
+@media (min-width: 600px) { #background { margin-bottom: -12rem; } }
+@media (min-width: 768px) {
+	#background-img { height: 19rem; }
+	#background-mask { height: 19rem; margin-top: -19rem; }
+}
+@media (min-width: 900px) { #background-img { background-position: 0rem -10rem; } }
+@media (min-width: 1200px) { #background-img { background-position: 0rem -17rem; } }
+@media (min-width: 1800px) { #background-img { background-position: 0rem -25rem; } }
+
+/*
+@media (min-width: 650px) {
+	#tn-name { font-size: 2.5rem; }
+	#tn-addr { font-size: 1rem; }
+}
+
+@media (max-width: 400px) {
+	#tn-name { font-size: 2rem; }
+	#tn-addr { font-size: 1rem; }
+}
+*/

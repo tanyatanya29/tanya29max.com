@@ -24,6 +24,8 @@
 	cursor: pointer;
 }
 
+#change-languages { margin-top: 60px; }
+
 /**************************  different devices **************************/
 @media (min-width: 360px) { #background { margin-bottom: -15rem; } #background-img { background-position: 0rem -4rem; width: 102%} #background-mask { width: 102% }
 	#tn-name { font-size: 2rem; }

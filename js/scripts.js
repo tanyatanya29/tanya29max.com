@@ -39,4 +39,10 @@
 	$("body").scrollspy({
 		target: "#sideNav",
 	});
+
+	$(".tn-thumbnail").click(function() {
+		document.querySelector("#cert-name").innerHTML = this.alt;
+		document.querySelector("#cert-detail").src = this.src;
+		$("#cert-modal").modal();
+	});
 })(jQuery); // End of use strict

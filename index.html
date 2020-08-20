@@ -14,10 +14,10 @@
         <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
-
-
+        <link href="css/styles2.css" rel="stylesheet" />
     </head>
-    <body id="page-top"> 
+
+    <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
@@ -26,7 +26,7 @@
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav" style="font-family: Corbel font-weight: bold;">
+                <ul class="navbar-nav" style="font-family: Corbel; font-weight: bold;">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Обо мне</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Образование</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Навыки</a></li>
@@ -40,37 +40,27 @@
         <!-- Page Content-->
         <div class="container-fluid p-0">
             <!-- background -->
-<div id="background" style="margin: -5rem 0 -13rem 0;">
-    <div id="background-img" style="height: 400px; 
-          width: 100%;
-          background-image: url('assets/img/pexels-picjumbocom-461077.jpg');
-          background-size: 130%;
-          background-repeat: no-repeat;
-          background-position: -150px -300px;">
-    </div>
-    <div id="background-mask" style="
-             height: 400px; 
-             margin-top: -400px; 
-             background: rgba(255,255,255,0.5);">
-    </div>
-    </div>
+            <div id="background">
+                <div id="background-img"></div>
+                <div id="background-mask"></div>
+            </div>
+
             <!-- About-->
             <section class="resume-section" id="about">
                 <div class="resume-section-content">
-                    <h2 class="mb-0">
+                    <h2 id="tn-name" class="mb-0">
                         Акельева
                         <span class="text-primary">Татьяна</span>
                     </h2>
-                        
-                    <div class="subheading mb-5">
-                        Россия, г. Москва · 
+
+                    <div id="tn-addr" class="subheading mb-5">
+                        Россия, г. Москва ·
                         <a href="mailto:name@email.com">akeleva.work@gmail.com</a>
                     </div>
                     <p class="lead mb-5">
-                        
-                        Я предоставляю услуги письменного и последовательного перевода, владею двумя иностранными языками: английским и китайским. Работаю в таких программах, как Smartcat и MemoQ. В дальнейшем я хотела бы развиваться в сфере локализации ПО и игр.</p>
-                 
-                    
+                        Я предоставляю услуги письменного и последовательного перевода, владею двумя иностранными языками: английским и китайским. Работаю в таких программах, как Smartcat и MemoQ. В дальнейшем я хотела бы развиваться в сфере локализации ПО и игр.
+                    </p>
+
                     <div class="social-icons">
                         <a class="social-icon" href="https://www.linkedin.com/in/tatiana-akeleva-1b41561a3" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                         <a class="social-icon" href="https://github.com/tanyatanya29" target="_blank"><i class="fab fa-github"></i></a>
@@ -78,22 +68,25 @@
                     </div>
                     <br>
                     <a href="index2.html">Switch to English</a>
-               
+                </div>
             </section>
             <hr class="m-0" />
+
             <!-- Education-->
             <section class="resume-section" id="education">
                 <div class="resume-section-content">
                     <h2 class="mb-5" style="font-size: 45px; font-family: Arial;">Образование</h2>
+
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h4 class="mb-0">Московский педагогический государственный университет</h4>
                             <div class="subheading mb-3">Направление подготовки 45.03.02 Лингвистика</div>
                             <div>направленность (профиль) «Перевод и переводоведение» (английский и китайский языки)</div>
-                            
+
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">2016 – 2021</span></div>
                     </div>
+
                     <div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
                             <h4 class="mb-0">Университет Внутренней Монголии 内蒙古师范大学</h4>
@@ -102,11 +95,11 @@
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">2018 – 2019</span></div>
                     </div>
+
                     <div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
                             <h4 class="mb-0">Российский Новый Университет</h4>
-                            <div class="subheading mb-3">Общероссийская общественная организация «Союз переводчиков России»
-</div>
+                            <div class="subheading mb-3">Общероссийская общественная организация «Союз переводчиков России»</div>
                             <p>Зимняя школа перевода</p>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">2020</span></div>
@@ -114,33 +107,40 @@
                 </div>
             </section>
             <hr class="m-0" />
+
             <!-- Skills-->
             <section class="resume-section" id="skills">
                 <div class="resume-section-content">
                     <h2 class="mb-5" style="font-size: 45px; font-family: Arial;">Навыки</h2>
-                    <p><img align="right" src="assets/skills/mm.jpg" width="374" height="251" alt="">
-                    <ul>
-                    <li><div class="subheading mb-0"><small>Автоматизированные системы перевода</small></div>
-                    <ul class="list-inline dev-icons">
-                       <li class="list-inline-item"><img src="assets/5d00f03928055.png" width="50" height="50"></li>
-                        <li class="list-inline-item"><img src="assets/memoq_logo_q-304x304.png" width="50" height="50"></li>
-                        <li class="list-inline-item"><img src="assets/512x512bb.jpg" width="50" height="50"></li>
-                    </ul>
-                    <li>английский язык;</li>
-                        <li><span class="fa-li"><i class="fas fa-check"></i></span>пользователь ПК;</li>
-                        <li><span class="fa-li"><i class="fas fa-check"></i></span>письменный и устный последовательный перевод;</li>
-                        <li><span class="fa-li"><i class="fas fa-check"></i></span>китайский язык;</li>
-                        <li><span class="fa-li"><i class="fas fa-check"></i></span>высокая скорость печати.</li>
-                   </ul>
-            
-            </p>
-            </div>
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <ul>
+                                    <li>Автоматизированные системы перевода<ul>
+                                        <li>Smartcat</li>
+                                        <li>memoQ</li>
+                                        <li>Memsource</li>
+                                    </ul>
+
+                                    </li>
+                                    <li>английский язык;</li>
+                                    <li>пользователь ПК;</li>
+                                    <li>письменный и устный последовательный перевод;</li>
+                                    <li>китайский язык;</li>
+                                    <li>высокая скорость печати.</li>
+                                </ul>
+                            </div>
+
+                            <div class="col-12 col-md-6">
+                                <img class="img-fluid" src="assets/skills/mm.jpg">
+                            </div>
+                        </div>
+                    </div>
                 </div>
-          
-                    
-              
             </section>
             <hr class="m-0" />
+
             <!-- Experience-->
             <section class="resume-section" id="experience">
                 <div class="resume-section-content">
@@ -151,20 +151,20 @@
                             <div class="subheading mb-3">Телеком-Экспресс, ООО</div>
                             <a href="http://te-ex.ru/" target="_blank">www.te-ex.ru</a>
                             <p>Информационные технологии, системная интеграция, интернет, автоматизация технологических и бизнес-процессов предприятия, ИТ-консалтинг, услуги для бизнеса, call-центры, диспетчерские службы.</p>
-                            <p>Должностные обязанности:
-                                <ul>
-                                    <li>обработка входящих звонков и обращений;</li>
-                                    <li>предоставление достоверной информации клиентам;</li>
-                                        <li>регистрация обращений клиентов;</li>
-                                            <li>skype аутентификация данных – подтверждение паспортных данных клиента (видео звонок).</li>
-                                </ul>
-                            </p>
+                            <p>Должностные обязанности:</p>
+                            <ul>
+                                <li>обработка входящих звонков и обращений;</li>
+                                <li>предоставление достоверной информации клиентам;</li>
+                                <li>регистрация обращений клиентов;</li>
+                                <li>skype аутентификация данных – подтверждение паспортных данных клиента (видео звонок).</li>
+                            </ul>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">октябрь 2017 — июль 2018</span></div>
+                    </div>
+                </div>
             </section>
-            
-            
             <hr class="m-0" />
+
             <!-- Interests-->
             <section class="resume-section" id="interests">
                 <div class="resume-section-content">
@@ -175,28 +175,68 @@
                 </div>
             </section>
             <hr class="m-0" />
+
             <!-- Awards-->
             <section class="resume-section" id="awards">
                 <div class="resume-section-content">
                     <h2 class="mb-5" style="font-size: 45px; font-family: Arial;">Сертификаты</h2>
-                    <img src="assets/certificates/1.jpg" width="174" height="121" alt="">
-                    <img src="assets/certificates/3.jpg" width="121" height="174" alt="">
-                    <img src="assets/certificates/4.jpg" width="121" height="174" alt="">
-                    <img src="assets/certificates/5.jpg" width="121" height="174" alt="">
-                    <img src="assets/certificates/6.jpg" width="121" height="174" alt="">
-                    <img src="assets/certificates/7.jpg" width="121" height="174" alt="">
-                    
-                    
-                    
+
+                    <div class="container">
+                        <div class="row text-center">
+                            <div class="col-12 col-sm-6 col-md-4">
+                                <img class="tn-thumbnail img-thumbnail" src="assets/certificates/1.jpg" alt="cert-1">
+                            </div>
+
+                            <div class="col-12 col-sm-6 col-md-4">
+                                <img class="tn-thumbnail img-thumbnail" src="assets/certificates/3.jpg" alt="cert-2">
+                            </div>
+
+                            <div class="col-12 col-sm-6 col-md-4">
+                                <img class="tn-thumbnail img-thumbnail" src="assets/certificates/4.jpg" alt="cert-3">
+                            </div>
+
+                            <div class="col-12 col-sm-6 col-md-4">
+                                <img class="tn-thumbnail img-thumbnail" src="assets/certificates/5.jpg" alt="cert-4">
+                            </div>
+
+                            <div class="col-12 col-sm-6 col-md-4">
+                                <img class="tn-thumbnail img-thumbnail" src="assets/certificates/6.jpg" alt="cert-5">
+                            </div>
+
+                            <div class="col-12 col-sm-6 col-md-4">
+                                <img class="tn-thumbnail img-thumbnail" src="assets/certificates/7.jpg" alt="cert-6">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
             <hr class="m-0" />
+
             <!-- Awards-->
             <section class="resume-section" id="portfolio">
                 <div class="resume-section-content">
                     <h2 class="mb-5" style="font-size: 45px; font-family: Arial;">Портфолио</h2>
                 </div>
             </section>
+        </div>
+
+        <!-- modal -->
+        <div class="modal fade" id="cert-modal" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="cert-name">foo</h5>
+
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+
+                    <div class="modal-body">
+						<img id="cert-detail" class="img-fluid">
+					</div>
+                </div>
+            </div>
         </div>
         <!-- Bootstrap core JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
